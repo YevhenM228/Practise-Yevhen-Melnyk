@@ -26,23 +26,22 @@ console.log(isAdult);
 /*Завдання 6*/
 let name = "Yevhen";
 let surName = "Melnyk";
-let group = true;
+let group = "Lv-678";
 let birthday = 2003;    
-
-console.log(typeof birthday, birthday);
-console.log(typeof group, group);
-console.log(typeof name, name);
-
+const is_married = false;
 let hair;
-console.log(typeof hair, hair);
-
 let friend = null;
+console.log(typeof birthday, birthday);
+console.log(typeof is_married, married);
+console.log(typeof name, name);
+console.log(typeof group, group);
+console.log(typeof hair, hair);
 console.log(typeof friend, friend);
 
 /*Завдання 7*/
 let login = prompt("Login:", "login");
-let email = prompt("Email:", "email");
-let password = prompt("Password:","*******")
+let email = prompt("Email:", "useremail@mail.com");
+let password = prompt("Password:","password");
 alert(`Dear ${login}, your email is ${email}, your password is ${password}`);
 
 /*Завдання 8*/
