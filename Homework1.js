@@ -14,9 +14,10 @@ const dog = {
  age: 4,
  color: null,
  four_legs: true,
+ hair:undefined
 }
 console.log(dog);
-console.log(dog.hair);
+
 
 /*Завдання 5*/
 let isAdult = confirm("Are you adult?");
