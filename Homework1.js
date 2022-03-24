@@ -20,8 +20,7 @@ console.log(dog);
 
 
 /*Завдання 5*/
-let isAdult = confirm("Are you adult?");
-alert( isAdult );
+let isAdult = confirm("Are you over 18 years old?");
 console.log(isAdult);
 
 /*Завдання 6*/
