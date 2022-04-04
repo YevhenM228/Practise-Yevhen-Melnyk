@@ -9,7 +9,7 @@ console.log(typeof res1); // "string"
 let res2 = Boolean(x) + "" + y; ;;// Допишіть код, необхідно використовувати змінні x і y
 console.log(res2); // "true2"
 console.log(typeof res2); // "string"
-let res3 = Boolean(x,y);// Допишіть код, необхідно використовувати змінні x і y
+let res3 = y > x;// Допишіть код, необхідно використовувати змінні x і y
 console.log(res3); // true
 console.log(typeof res3); // "boolean"
 
