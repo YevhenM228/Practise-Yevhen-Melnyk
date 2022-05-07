@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Task1
+    <div id="test">First</div>-->
+
+    <!--Task2
+	<img class="image" src="dog.jpg">-->
+
+    <!--Task3
+    <h2>Article header</h2>      
+      <div id="text">
+        <p>First paragraph</p>
+        <p>Second paragraph</p>
+        <p>Third paragraph</p>
+      </div>
+	<p>Another text</p>-->
+
+    <!--Task4
+    <ul id="list"><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li></ul>-->
+
+    <!-- Task5
+    <h1>I'am a big header!!!</h1>
+    <div id="myDiv">
+      <p>First paragraph</p>
+      <p>Second paragraph</p>
+      <p>Third paragraph</p>
+      <p>Fourth paragraph</p>
+    </div>
+    <ul id="myList">
+      <li>Make</li>
+      <li>me</li>
+      <li>horizontal!</li>
+    </ul>
+    <span>Make me invisible, please!</span> -->
+    <!-- Task6
+    <input type="text" id="input1" value="Text1">
+    <input type="text" id="input2" value="Text2"> -->
+
+    <script>
+      /*Task1  
+    document.getElementById("test").innerHTML = "Last";
+    document.querySelector("#test").innerHTML = "last";*/
+
+      /*Task2
+    let image = document.getElementsByClassName("image")[0];
+    image.src = "cat.jpg";
+    alert(image.outerHTML);*/
+
+      /*Task3
+    let elements = document.querySelectorAll("#text p");
+    for (let i = 0; i < elements.length; i++){
+        alert("Select text" + i + ": " + elements[i].innerHTML);
+    }*/
+      /*Task4
+    const firstE = document.getElementById('list').firstChild.innerHTML;
+    const lastE = document.getElementById('list').lastChild.innerHTML;
+    const secondE = document.getElementById('list').firstChild.nextSibling.innerHTML;
+    const fourthE = document.getElementById('list').lastChild.previousSibling.innerHTML;
+    const thirdE = document.getElementById('list').firstChild.nextSibling.nextSibling.innerHTML;
+
+    alert(firstE);
+    alert(lastE);
+    alert(secondE);
+    alert(fourthE);
+    alert(thirdE);*/
+
+      /*Task5
+    document.body.children[0].style.backgroundColor = 'lightgreen';
+    document.getElementById('myDiv').children[0].style.fontWeight = '600';
+    document.getElementById('myDiv').children[1].style.color = 'red';
+    document.getElementById('myDiv').children[2].style.textDecoration  = 'underline';
+    document.getElementById('myDiv').children[3].style.fontStyle = 'italic';
+    document.getElementById('myList').style.listStyle = 'none';
+    document.getElementById('myList').style.display = 'flex';
+    document.getElementsByTagName('span')[0].style.display = 'none';  */
+
+      /*Task6
+    let message = prompt("Enter your email: ", "");
+    let message2 = prompt("Enter your password: ", "");
+
+    let input1 = document.getElementById("input1");
+    let input2 = document.getElementById("input2");
+
+    input1.value = message;
+    input2.value = message2;
+
+    let input1Value = input1.value;
+    let input2Value = input2.value;
+
+    input1.value = input2Value;
+    input2.value = input1Value;*/
+
+      document.body.innerHTML = `
+      <main class="mainClass check item"> 	
+	    <div id="myDiv">
+         <p>First paragraph</p>           
+        </div>
+      </main>`;
+    </script>
+  </body>
+</html>
