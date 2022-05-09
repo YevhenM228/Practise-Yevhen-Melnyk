@@ -52,7 +52,7 @@ try{
     console.log(monthName);
 }
 catch(exception){
-    console.error(e.name, e.message);
+    console.error(eexception.name, exception.message);
 }
 
 /* Task4 */
